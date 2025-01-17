@@ -1,0 +1,31 @@
+@import url(fonts.css);
+
+.images {
+    overflow: hidden;
+    background: #000;
+}
+
+.images-bg {
+    width: 100%;
+}
+
+.images-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    width: 100%;
+    column-gap: 50px;
+    row-gap: 75px;
+    padding: 100px 0px 200px 20px;
+}
+
+.images-content__box {
+    text-align: center;
+}
+
+.images-box__title {
+    font-family: 'IR';
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}

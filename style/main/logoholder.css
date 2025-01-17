@@ -1,0 +1,100 @@
+@import url(fonts.css);
+
+.logoholder-top__bg {
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+
+.logoholder {
+    background: #000000;
+}
+
+.logoholder-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoholder-left__title {
+    font-family: 'AR';
+    font-size: 38px;
+    line-height: 120%;
+    color: #fff;
+    max-width: 297px;
+    padding-bottom: 30px;
+}
+
+
+.logoholder-bottom {
+    display: flex;
+    padding-bottom: 150px;
+}
+
+
+.logoholder-left__span {
+    font-family: 'AR';
+    font-size: 38px;
+    line-height: 120%;
+    color: #a8a8a8;
+    max-width: 297px;
+}
+
+.logoholder-bottom__right {
+    background: #222222;
+    height: 100%;
+    padding: 30px 15px 30px 15px;
+}
+
+
+.logoholder-bottom-textone {
+    font-family: 'IR';
+    font-size: 12px;
+    line-height: 160%;
+    color: #c4c4c4;
+    max-width: 514px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.logoholder-left__foto {
+    max-width: 100%;
+}
+
+.logoholder-bottoom__titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoholder-right__titleone {
+    font-family: 'IR';
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+}
+
+
+.logoholder-bg {
+    width: 100%;
+    padding-bottom: 100px;
+    
+}
+
+
+@media (max-width: 600px) {
+    .logoholder-bottom {
+        flex-wrap: wrap;
+    }
+
+    .logoholder-left__title {
+        font-size: 28px;
+        max-width: 100%;
+    }
+}
+

@@ -1,0 +1,78 @@
+@import url(fonts.css);
+
+
+.footer {
+    background: #42006A;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.footer-content {
+    display: flex;
+    column-gap: 50px;
+}
+
+.footer-left__text {
+    font-family: 'IR';
+    font-size: 13px;
+    line-height: 158%;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.footer-content__right {
+    display: flex;
+    column-gap: 65px;
+}
+
+.footer-right__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.footer-list__link {
+    font-family: 'IR';
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.footer-right__link {
+    font-family: 'IR';
+    font-size: 13px;
+    line-height: 118%;
+    color: #fff;
+}
+
+.footer-right__icons {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer-icons__icon {
+    font-size: 20px;
+    background: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 750px) {
+    .footer-content {
+        flex-wrap: wrap;
+        row-gap: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-content__right {
+        flex-wrap: wrap;
+        row-gap: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+}

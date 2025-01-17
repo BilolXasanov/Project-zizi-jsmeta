@@ -1,0 +1,72 @@
+@import url(fonts.css);
+
+.team {
+    background: #000000;
+}
+
+.team-content {
+    display: flex;
+    column-gap: 100px;
+}
+
+.team-content__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.team-box__image {
+    max-width: 100%;
+}
+
+.team-box__title {
+    font-family: 'IR';
+    font-size: 21px;
+    line-height: 132%;
+    color: #fff;
+}
+
+.team-box__silka {
+    font-family: 'IR';
+    font-size: 11px;
+    line-height: 109%;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #8dfd1b;
+}
+
+.team-box__icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.team-icons__icon {
+    font-size: 20px;
+    background: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.team-box__text {
+    font-family: 'IR';
+    font-size: 12px;
+    line-height: 160%;
+    color: #fff;
+    text-align: center;
+    max-width: 238px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 700px) {
+    .team-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 75px;
+    }
+}
