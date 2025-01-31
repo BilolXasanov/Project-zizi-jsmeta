@@ -145,12 +145,11 @@
     .nav-menu.active {
         display: flex;
         flex-direction: column;
-        background: #1e0131;
-        z-index: 888;
-        margin-top: 10px;
-        padding: 20px;
-        border-radius: 5px;
+        background: #BF7204;
+        z-index: 999;
+       
         width: 100%;
+
     }
 
     .menu-btn {
